@@ -3,6 +3,7 @@
 // include_once("../vendor/autoload.php");
 include_once('/../xampp/htdocs/doceliz/app/Config/Config.php');
 include_once('/xampp/htdocs/doceliz/app/Libraries/Router.php');
+include_once('/xampp/htdocs/doceliz/app/Libraries/Core.php');
 
  $router = new Router();
 

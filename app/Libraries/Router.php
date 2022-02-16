@@ -34,7 +34,8 @@ class Router{
          endif;
 
         // Chamando o arquivo PHP do controller
-         require_once(URL_RAIZ.'app/Controllers/'.$this->routerController.'.php');
+        //  require_once('/app/Controllers/'.$this->routerController.'.php');
+        require_once('../../../../xampp/htdocs/doceliz/app/Controllers/'.$this->routerController.'.php');
          
         // Instanciando o Controller para poder retornar ao valor default
         $this->routerController = new $this->routerController;
