@@ -1,0 +1,19 @@
+{
+    "name": "diego/doceliz",
+    "description": "project receitas - testes",
+    "type": "project",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diego Teixeira de Almeida",
+            "email": "diegotx2008@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
